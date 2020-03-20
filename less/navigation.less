@@ -1,1 +1,22 @@
 // Navigation code here
+.navigation{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: @nav-bg;
+    nav {
+        display: flex;
+        justify-content: center;
+    a {
+        margin: 20px;
+        font-size: 1.8rem;
+        color:gray;
+        text-decoration: none;  
+    }
+
+    @media @mobile {
+        margin-left: 0;
+      }
+}
+}
